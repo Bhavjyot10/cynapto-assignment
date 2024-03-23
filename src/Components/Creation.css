@@ -1,0 +1,26 @@
+﻿.Creation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Creation button {
+    height: 45px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px -5px #cfcabe;
+    background-color: white;
+    border: none;
+    font-size: 15px;
+}
+
+.Creation button:hover {
+    color: white !important;
+    background-color: #7d7777;
+}
+
+.Creation button:active {
+    background-color: #6e6867;
+}

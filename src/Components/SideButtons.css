@@ -1,0 +1,40 @@
+﻿.SideButtons {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.SideButtons button {
+    height: 50px;
+    width: 200px;
+    border-radius: 15px;
+    background-color: white;
+    border: 1px solid #968f8f;
+    box-shadow: 10px 10px 5px -5px #cfcabe;
+    font-size: 15px;
+}
+
+.SideButtons button:focus {
+    background-color: #d9cdcc;
+}
+
+.SideButtons button.new-video {
+    color: white;
+    background-color: blue;
+}
+
+.SideButtons button.new-video:active {
+    color: white;
+    background-color: #1614a6;
+}
+
+.new-video span{
+    float: right;
+}
+
+*:focus {
+    outline: none;
+}

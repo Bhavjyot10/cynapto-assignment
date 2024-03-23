@@ -1,0 +1,25 @@
+.App {
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+:root{
+    --leftsidewidth: 20%;
+}
+
+.left-side {
+    width: var(--leftsidewidth);
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.right-side {
+    width: calc(100% - var(--leftsidewidth));
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #f2efe6;
+}
+
+
